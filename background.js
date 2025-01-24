@@ -3,7 +3,7 @@ chrome.alarms.onAlarm.addListener((alarm) => {
 	if (alarm.name === "postureReminder") {
 		chrome.notifications.create({
 			type: "basic",
-			iconUrl: "icon128.png",
+			iconUrl: "icon.png",
 			title: "Posture Reminder",
 			message: "It's time to stand up and stretch!",
 			priority: 2, // High priority
