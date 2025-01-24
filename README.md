@@ -9,8 +9,8 @@ Posture Reminder is a browser extension that reminds you to correct your posture
 - Simple user interface to start and stop reminders.
 
 <div style="display: flex; gap: 20px;">
-  <img src="https://github.com/user-attachments/assets/d2fa1bcb-d4a1-4074-b935-2c1a4b2a8a73" alt="Posture Reminder image 1" />
-  <img src="https://github.com/user-attachments/assets/c7ba38de-f4b8-488d-ac81-ccaea47f3a0b" alt="Posture Reminder image 2" />
+  <img src="https://github.com/user-attachments/assets/4ba07a3d-8167-42b2-a13b-381f0e772bf0" alt="Posture Reminder image 1" />
+  <img src="https://github.com/user-attachments/assets/86da44c6-e166-4360-9cdc-99a2391a2d54" alt="Posture Reminder image 2" />
 </div>
 
 ## Installation
