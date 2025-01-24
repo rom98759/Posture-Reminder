@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Posture Reminder</title>
+	<link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+	<div id="message-container"></div>
+	<div>
+		<h1>Posture Reminder</h1>
+	</div>
+	<div class="status-container">
+		<p class="status inactive" id="status">Status: Inactive</p>
+	</div>
+	<div id="countdown-container">
+		<p id="countdown">Time until next reminder: <span id="time-remaining">N/A</span></p>
+	</div>
+	<div id="interval-container">
+		<label for="interval">Set interval (minutes):</label>
+		<input type="number" id="interval" min="1" value="30">
+		<button id="save">Save</button>
+	</div>
+	<div id="button-container">
+		<button id="start-stop">Start</button>
+	</div>
+
+	<script src="popup.js"></script>
+</body>
+
+</html>

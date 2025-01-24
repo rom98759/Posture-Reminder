@@ -1,0 +1,19 @@
+{
+	"manifest_version": 3,
+	"name": "Posture Reminder",
+	"version": "1.0",
+	"description": "Receive reminders to correct your posture and stretch.",
+	"permissions": ["storage", "alarms", "notifications"],
+	"background": {
+	  "service_worker": "background.js"
+	},
+	"action": {
+	  "default_popup": "popup.html",
+	  "default_icon": "icon.png"
+	},
+	"icons": {
+	  "16": "icon.png",
+	  "32": "icon.png",
+	  "128": "icon.png"
+	}
+}
