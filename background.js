@@ -12,13 +12,4 @@ chrome.alarms.onAlarm.addListener((alarm) => {
 	}
 });
 
-// Reset the alarm with a custom interval when the extension starts
-chrome.runtime.onStartup.addListener(() => {
-	chrome.storage.local.get("reminderInterval", (result) => {
-		let interval = result.reminderInterval || 30; // Default to 30 minutes
-		if (interval < 1) {
-			interval = 1; // Minimum interval of 1 minute
-		}
-		chrome.alarms.create("postureReminder", { delayInMinutes: interval, periodInMinutes: interval });
-	});
-});
+// Remove the onStartup listener to prevent setting the alarm on startup

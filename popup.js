@@ -48,11 +48,8 @@ function startCountdown() {
 
 // Load the initial alarm state and interval
 chrome.alarms.get("postureReminder", (alarm) => {
-	updateStatus(!!alarm);
-	if (alarm) {
-		countdownContainer.style.display = "block"; // Show countdown if alarm is active
-		startCountdown();
-	}
+	updateStatus(false); // Set status to inactive by default
+	countdownContainer.style.display = "none"; // Hide countdown by default
 });
 
 // Load the interval from storage
